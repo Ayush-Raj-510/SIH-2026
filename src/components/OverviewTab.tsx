@@ -316,58 +316,56 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
               <h3 className="font-bold text-[#141414] text-sm">
                 Deterministic Decision Support Layer
               </h3>
-              <span className="text-[10px] font-mono font-semibold text-[#666666] bg-[#EAE9E5] px-1.5 py-0.5 rounded border border-[#C8C7C2]">
-                v1.2.0-STABLE
-              </span>
+              
             </div>
 
             <div className="text-xs space-y-2 text-[#333333]">
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <Clock className="w-3.5 h-3.5 text-[#141414]" />
-                  9.1 Fast Closure Detector (&lt;120s vs peer IQR)
+                  Fast Closure Detector (&lt;120s vs peer IQR)
                 </span>
                 <span className="font-bold text-rose-600 text-[11px]">Triggered</span>
               </div>
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
-                  9.2 Escalation Bypass Detector (Unlinked cases)
+                  Escalation Bypass Detector (Unlinked cases)
                 </span>
                 <span className="font-bold text-rose-600 text-[11px]">Triggered</span>
               </div>
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <FileCheck className="w-3.5 h-3.5 text-blue-600" />
-                  9.3 Repetitive Notes (Cosine/TF-IDF)
+                  Repetitive Notes (Cosine/TF-IDF)
                 </span>
                 <span className="font-bold text-rose-600 text-[11px]">Triggered</span>
               </div>
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <EyeOff className="w-3.5 h-3.5 text-purple-600" />
-                  9.4 Silent Critical Asset Detector
+                  Silent Critical Asset Detector
                 </span>
                 <span className="font-bold text-purple-700 text-[11px]">Triggered</span>
               </div>
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <Activity className="w-3.5 h-3.5 text-teal-600" />
-                  9.5 Coverage-Drop Detector (&gt;50% Delta)
+                  Coverage-Drop Detector (&gt;50% Delta)
                 </span>
                 <span className="font-bold text-amber-600 text-[11px]">Triggered</span>
               </div>
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <Layers className="w-3.5 h-3.5 text-[#525252]" />
-                  9.6 Peer-Relative Low Activity (Normalized)
+                  Peer-Relative Low Activity (Normalized)
                 </span>
                 <span className="font-bold text-[#525252] text-[11px]">Active</span>
               </div>
               <div className="flex items-center justify-between p-2 rounded bg-[#F8F7F4] border border-[#E5E4DE]">
                 <span className="flex items-center gap-1.5 font-medium">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                  9.8 Data Quality Integrity Assessor
+                  Data Quality Integrity Assessor
                 </span>
                 <span className="font-bold text-emerald-700 text-[11px]">Active</span>
               </div>

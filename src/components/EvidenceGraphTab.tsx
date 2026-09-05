@@ -340,20 +340,7 @@ export const EvidenceGraphTab: React.FC<EvidenceGraphTabProps> = ({
             )}
           </div>
 
-          {/* Examiner Decision Support Guidance */}
-          <div className="bg-[#F8F7F4] border border-[#D0CFCB] rounded-lg p-5 text-xs text-[#141414] space-y-3 shadow-xs">
-            <div className="font-bold text-sm text-[#141414] flex items-center gap-1.5">
-              <ShieldCheck className="w-4 h-4 text-[#141414]" />
-              Supervisory Examination Advice
-            </div>
-            <p className="text-[#525252] leading-relaxed font-medium">
-              {isMissingEscalation 
-                ? 'Issue an official inquiry regarding the un-escalated Critical security alert. Verify whether the CSE implemented an unrecorded manual remediation or suffered an internal escalation breakdown.'
-                : isFastClosure
-                ? 'Request analyst triage logs. A high-severity incident resolved in under 2 minutes typically represents automated alert dismissal without packet or host forensic examination.'
-                : 'Lifecycle integrity matches expected normative parameters for this sector and peer group.'}
-            </p>
-          </div>
+          
         </div>
       </div>
     </div>
